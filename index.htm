@@ -6,67 +6,68 @@
   <title>Складна економіка простими словами</title>
   <style>
     body {
-      font-family: "Segoe UI", sans-serif;
-      background: linear-gradient(to bottom right, #f4f8ff, #e6f0ff);
-      color: #222;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4f7fb;
+      color: #333;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
     }
+
     header {
-      background: #004aad;
+      background-color: #004aad;
       color: white;
-      padding: 25px 20px;
       text-align: center;
-      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-    }
-    nav {
-      margin-top: 10px;
-    }
-    nav a {
-      color: white;
-      margin: 0 12px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.3s;
-    }
-    nav a:hover {
-      color: #b0e3ff;
-      text-decoration: underline;
-    }
-    main {
       padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(135deg, #004aad 0%, #007bff 100%);
     }
-    h1 {
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+
+    nav {
+      background-color: #e7eefc;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
       color: #004aad;
-    }
-    h2 {
-      color: #0067c0;
-    }
-    .button {
-      display: inline-block;
-      background: #004aad;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
-      margin-top: 15px;
-      transition: background 0.3s;
+      margin: 0 15px;
+      font-size: 1.1em;
     }
-    .button:hover {
-      background: #003b89;
+
+    nav a:hover {
+      text-decoration: underline;
     }
-    footer {
-      background: #004aad;
-      color: white;
-      padding: 15px;
+
+    .hero {
       text-align: center;
-      font-size: 14px;
+      padding: 40px 20px;
+    }
+
+    .hero img {
+      width: 70%;
+      max-width: 500px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    footer {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
       margin-top: 40px;
     }
   </style>
@@ -74,33 +75,26 @@
 <body>
   <header>
     <h1>Складна економіка простими словами</h1>
-    <nav>
-      <a href="#">Головна</a>
-      <a href="#">Базові поняття</a>
-      <a href="#">Гроші та ринок</a>
-      <a href="#">Економіка у світі</a>
-      <a href="#">Корисні матеріали</a>
-    </nav>
   </header>
 
-  <main>
+  <nav>
+    <a href="#">Головна</a>
+    <a href="#">Базові поняття</a>
+    <a href="#">Гроші</a>
+    <a href="#">Ринок</a>
+  </nav>
+
+  <div class="hero">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Economics_graph.png/800px-Economics_graph.png" alt="Економіка">
+  </div>
+
+  <div class="content">
     <h2>Ласкаво просимо!</h2>
-    <p>Цей сайт створено для тих, хто хоче зрозуміти економіку без складних формул і заплутаних термінів. 
-    Тут ми пояснюємо головні економічні поняття простою мовою — на прикладах з життя, через аналогії і з гумором 😊</p>
-
-    <p>Ви дізнаєтесь:</p>
-    <ul>
-      <li>Що таке економіка і як вона впливає на наше життя</li>
-      <li>Як працюють ринок, гроші, ціни та попит</li>
-      <li>Чому бувають кризи і що таке інфляція</li>
-      <li>Як економіка пов’язана з довкіллям і технологіями</li>
-    </ul>
-
-    <a class="button" href="#">Почати навчання</a>
-  </main>
+    <p>Тут ми розповідаємо про економіку просто, цікаво і зрозуміло. Без складних термінів, тільки суть — щоб кожен міг розібратися, як працює світ грошей, ринків і вибору.</p>
+  </div>
 
   <footer>
-    © 2025 Складна економіка простими словами | Розроблено для навчального проекту
+    <p>© 2025 Складна економіка простими словами</p>
   </footer>
 </body>
 </html>
